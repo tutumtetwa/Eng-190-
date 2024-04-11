@@ -865,6 +865,31 @@ section {
   background-color: #149ddd;
 }
 
+/* Clap button styles */
+.clap-button {
+  background-color: #149ddd; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 30px; /* Button border radius */
+  padding: 10px 20px; /* Button padding */
+  font-size: 18px; /* Button font size */
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.clap-button:hover {
+  background-color: #0c7bb3; /* Change background color on hover */
+}
+
+/* Active effect */
+.clap-button:active {
+  transform: translateY(2px); /* Add slight Y-axis translation when button is clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow when button is clicked */
+}
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
