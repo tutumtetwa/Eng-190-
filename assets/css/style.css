@@ -301,6 +301,11 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  #header {
+    background-size: cover; 
+    background-position: center; 
+  }
 }
 
 /*--------------------------------------------------------------
